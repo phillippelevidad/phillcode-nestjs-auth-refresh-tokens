@@ -1,0 +1,26 @@
+### signup
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+    "email": "test2@acme.com",
+    "password": "test",
+    "roles": []
+}
+
+### signin
+POST http://localhost:3000/auth/signin
+Content-Type: application/json
+
+{
+    "email": "test2@acme.com",
+    "password": "test"
+}
+
+### refresh
+POST http://localhost:3000/auth/refresh
+Content-Type: application/json
+
+{
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QyQGFjbWUuY29tIiwic3ViIjoiYTkyYjIxYzEtOThiYi00ZTRkLTkzNjgtODczNmY4Y2MwNmI4Iiwicm9sZXMiOltdLCJ0eXBlIjoicmVmcmVzaCIsImlhdCI6MTcxNzM1OTUxNywiZXhwIjoxNzE3MzYzMTE3fQ.rrH07Cxtei5ddN9h2ahsxluUi2MLr7kB4MdqXcSu5_U"
+}
