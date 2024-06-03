@@ -1,19 +1,18 @@
-# NestJS Auth Controle de Acesso com Roles (Funções) de Usuário
+# Refresh Tokens com NestJS e JWT
 
-Como controlar acesso a rotas por funções de usuário, como Admin, Manager, Marketing, etc.
+Refresh Tokens, como gerenciá-los?
 
-Você também pode usar a mesma solução para fazer o controle por permissões (scopes).
-
-Para isso, usamos como base o NestJS, JWT e Passport.
+Vamos ver como gerar e gerenciar Refresh Tokens + Access Tokens usando NestJS com JWT.
 
 ### ✅ O QUE VOCÊ VAI APRENDER
 
-* Criar decorators (`@Roles('admin', 'outro')`)
-* Customizar o JwtAuthGuard para verificar as permissões de acesso
+* O que são Access e Refresh Tokens
+* Políticas de segurança para Refresh Tokens
+• Rotação de Refresh Tokens (Token Rotation)
 
 ### ✅ VÍDEO
 
-https://www.youtube.com/watch?v=mPmQBLAdG5s
+https://youtu.be/ccFVOXJnfmo
 
 ### ✅ SIGA-ME NAS REDES
 
